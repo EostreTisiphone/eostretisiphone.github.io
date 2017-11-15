@@ -24,7 +24,7 @@ github_username:  EostreTisiphone
 
 # Build settings
 markdown: kramdown
-theme: massively
+theme: jekyll-theme-basically-basic
 plugins:
   - jekyll-feed
 
