@@ -3,7 +3,10 @@
 ---
 @charset "utf-8";
 
-$background-color: #5a0a0a;
+#masthead {
+    background-image: url(/assets/images/header-img.jpg);
+    background-position: left;
+}
 
 // Theme skin
 @import "basically-basic/themes/{{ site.data.theme.skin | default: 'default' }}";
