@@ -15,7 +15,7 @@ $header-image: url(/assets/images/header-img.jpg);
 #masthead {
     background-image: $header-image;
     background-position: left;
-    .site-title a {
+    a {
         text-shadow: 5px 5px 3px #000000;
     }
 }
