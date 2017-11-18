@@ -5,17 +5,19 @@
 
 $background-color: #001218;
 $sidebar-background-color: #c7e8e9;
-
-
-#masthead {
-    background-image: url(/assets/images/header-img.jpg);
-    background-position: left;
-}
-
+$sidebar-width: 250px;
+$header-image: url(/assets/images/header-img.jpg);
 
 // Theme skin
 @import "basically-basic/themes/{{ site.data.theme.skin | default: 'default' }}";
-
 @import "basically-basic";
+
+#masthead {
+    background-image: $header-image;
+    background-position: left;
+    .site-title a {
+        text-shadow: 5px 5px 3px #000000;
+    }
+}
 
 
