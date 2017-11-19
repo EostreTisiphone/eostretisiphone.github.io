@@ -1,0 +1,10 @@
+/* TEAM */
+    Author: Ellinor Ek
+    Contact: ee222yd [at] student.lnu.se
+    Location: Sweden
+
+/* SITE */
+    Last update: 2017/11/19
+    Language: English
+    Software: Jekyll <https://jekyllrb.com/>
+              Basically Basic Jekyll Theme <https://mademistakes.com>
