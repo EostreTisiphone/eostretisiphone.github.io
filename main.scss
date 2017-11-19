@@ -9,7 +9,7 @@ $sidebar-width: 250px;
 $header-image: url(/assets/images/header-img.jpg);
 
 // Theme skin
-@import "basically-basic/themes/_{{ site.data.theme.skin | default: 'default' }}";
+@import "basically-basic/themes/{{ site.data.theme.skin | default: 'default' }}";
 @import "basically-basic";
 
 #masthead {
