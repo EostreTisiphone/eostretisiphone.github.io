@@ -31,6 +31,7 @@ theme: jekyll-theme-basically-basic
 plugins:
   - jekyll-feed
   - jekyll-paginate
+  - jekyll-seo-tag
 
 # Pagination
 paginate: 4
