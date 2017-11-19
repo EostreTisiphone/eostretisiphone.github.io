@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Pre-compiled CSS vs. regular CSS"
-categories: css, scss, pre-compiling css
+categories: web-development
 ---
 
 ### Regular CSS

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Static Site Generators"
-categories: SSG, jekyll, static site generators, webdesign
+categories: web-development
 ---
 
 ## What is an SSG?
