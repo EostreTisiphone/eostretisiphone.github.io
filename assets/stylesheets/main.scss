@@ -9,8 +9,8 @@ $sidebar-width: 250px;
 $header-image: url(/assets/images/header-img.jpg);
 
 // Theme skin
-@import "_sass/basically-basic/themes/{{ site.data.theme.skin | default: 'default' }}";
-@import "_sass/basically-basic";
+@import "../_sass/basically-basic/themes/{{ site.data.theme.skin | default: 'default' }}";
+@import "../_sass/basically-basic";
 
 #masthead {
     background-image: $header-image;
@@ -19,5 +19,3 @@ $header-image: url(/assets/images/header-img.jpg);
         text-shadow: 5px 5px 3px #000000;
     }
 }
-
-
