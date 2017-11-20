@@ -8,9 +8,6 @@ $sidebar-background-color: #c7e8e9;
 $sidebar-width: 250px;
 $header-image: url(/assets/images/header-img.jpg);
 
-// Theme skin
-@import "../_sass/basically-basic/themes/{{ site.data.theme.skin | default: 'default' }}";
-@import "../_sass/basically-basic";
 
 #masthead {
     background-image: $header-image;

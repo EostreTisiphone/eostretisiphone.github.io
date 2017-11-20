@@ -27,15 +27,15 @@ disqus:
 
 # Build settings
 markdown: kramdown
-#theme: jekyll-theme-basically-basic
+theme: minima
 plugins:
   - jekyll-feed
   - jekyll-paginate
   - jekyll-seo-tag
 
 # Pagination
-paginate: 4
-paginate_path: /page:num/
+#paginate: 4
+#paginate_path: /page:num/
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
